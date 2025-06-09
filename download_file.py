@@ -17,6 +17,8 @@ models = {
           'Zhitian':'damo/speech_sambert-hifigan_tts_zhitian_emo_zh-cn_16k', # 中文-多情感领域-16k-发音人Zhitian
           'Zhizhe':'damo/speech_sambert-hifigan_tts_zhizhe_emo_zh-cn_16k', # 中文-多情感领域-16k-发音人Zhizhe
           'Zhibei':'damo/speech_sambert-hifigan_tts_zhibei_emo_zh-cn_16k', # 中文-多情感领域-16k-发音人Zhibei
+          'english_us': 'damo/speech_sambert-hifigan_tts_en-us_16k',
+          'english_uk': 'iic/speech_sambert-hifigan_tts_luna_en-gb_16k',
          }
 
 for model_id in models.keys():
